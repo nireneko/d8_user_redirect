@@ -1,0 +1,6 @@
+services:
+  nireneko.login_check:
+    class: Drupal\nireneko\EventSubscriber\NekoLoginCheckSubscriber
+    arguments: ['@current_user', '@current_route_match']
+    tags:
+      - { name: event_subscriber }

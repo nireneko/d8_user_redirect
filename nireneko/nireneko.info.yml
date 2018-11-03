@@ -1,0 +1,5 @@
+name: 'Nireneko'
+type: module
+description: 'Modulo de ejemplo que redirige a usuarios anonimos.'
+package: Nireneko
+core: '8.x'
